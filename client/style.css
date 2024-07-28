@@ -12,6 +12,14 @@ body {
   align-items: center;
 }
 
+@media (min-width: 390px) {
+    .top {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
